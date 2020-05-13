@@ -1,11 +1,15 @@
 # Drawing a timeline displaying (satellite) acquisition dates
 
 
-This code provides a (naïve) tool to draw a timeline that displays acquisition dates:
+This code provides a (naïve) tool to draw a timeline that displays acquisition dates for a single area
 
 ![example1](fig/example1.png)
 
+or for multiple areas (below Sentinel-2 acquisition dates over three tiles)
+
 ![example2](fig/example2.png)
+
+The red dashed lines represent interpolated dates (used to deal with irregular temporal sampling for example).
 
 It might be used to present your (remote sensing) dataset.
 
