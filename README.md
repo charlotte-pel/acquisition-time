@@ -3,9 +3,9 @@
 
 This code provides a (naïve) tool to draw a timeline that displays acquisition dates:
 
-![example1](fig/example1.pdf)
+![example1](fig/example1.png)
 
-![example2](fig/example2.pdf)
+![example2](fig/example2.png)
 
 It might be used to present your (remote sensing) dataset.
 
