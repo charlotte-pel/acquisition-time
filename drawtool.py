@@ -129,7 +129,7 @@ def draw_singletile(tile_doy, tile_names=None, interp_doy=None, pdfsave_file=Non
 	
 	if not tile_names is None:
 		plt.legend(bbox_to_anchor=(1.25, 1))
-	if not interp_doy is None:
+	if not pdfsave_file is None:
 		plt.savefig(pdfsave_file,bbox_inches='tight')
 	plt.show()		
 		
@@ -188,7 +188,7 @@ def draw_multipletiles(tile_doy, tile_names=None, interp_doy=None, pdfsave_file=
 	
 	if not tile_names is None:
 		plt.legend(bbox_to_anchor=(1.25, 1))
-	if not interp_doy is None:
+	if not pdfsave_file is None:
 		plt.savefig(pdfsave_file,bbox_inches='tight')
 	plt.show()
 
